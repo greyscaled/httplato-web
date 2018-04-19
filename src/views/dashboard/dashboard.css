@@ -1,0 +1,41 @@
+.dashboard {
+	background-color: #9c27b0;
+	margin-top: 5vh;
+}
+
+.question-list__actions {
+	border-top: 1px solid #c60055;
+	padding: .5rem;
+}
+
+.question__content {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.question__content__item {
+	display: inline;
+	font-size: 1.5rem;
+}
+
+.question__content__blank {
+	display: inline;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+}
+
+.question__content__blank input {
+	color: #6a0080;
+	font-size: 1.5rem;
+	max-width: 20rem;
+}
+
+.question__content__item--bold {
+	display: inline;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.question__content__mc:hover {
+	background-color: #ff79b0;
+}

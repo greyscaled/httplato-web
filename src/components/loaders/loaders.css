@@ -1,0 +1,33 @@
+.loading {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+  height: 100%;
+  max-height: 50vh;
+  padding: 2rem;
+}
+
+.loading__logo img {
+	animation: App-logo-spin infinite 3s linear;
+	height: 20rem;
+}
+
+@keyframes App-logo-spin {
+  /*from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }*/
+  0% {
+  	transform: rotate(0deg);
+  }
+
+  33% {
+  	transform: rotate(360deg);
+  }
+
+  66% {
+  	transform: scaleY(1.1);
+  }
+
+  100% {
+  	transform: rotate(360deg);
+  }
+}
